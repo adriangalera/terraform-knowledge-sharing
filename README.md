@@ -14,7 +14,16 @@
     - Create a dynamoDB table and a S3 bucket
 2) For each (02-for-each)
     - Create multiple dynamoDB tables and a S3 bucket
-3) Templates
+3) Linking resources
+    - Create resources that interacts between them (S3 -> Lambda)
+4) Templates
     - Example of reuse code with templates
-4) Advanced use
+5) Advanced use
     - Networking
+
+## Utils
+
+- Generate a file with random content:
+```
+dd if=/dev/urandom of=scripts/example-file count=1024 bs=1000
+```

@@ -17,9 +17,7 @@
 3) Linking resources
     - Create resources that interacts between them (S3 -> Lambda)
 4) Templates
-    - Example of reuse code with templates
-5) Advanced use
-    - Networking
+    - Example of reuse code with templates. Create two docker tasks exactly equals but passing different env vars
 
 ## Utils
 

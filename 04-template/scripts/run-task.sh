@@ -18,4 +18,4 @@ then
 fi
 
 set -x
-aws --region eu-west-1 --profile gal ecs run-task --task-definition comms-ks-$task_definition --cluster $cluster --network-configuration "awsvpcConfiguration={subnets=[$subnet],assignPublicIp=ENABLED}" --launch-type FARGATE
+aws --region eu-west-1 --profile gal ecs run-task --task-definition $task_definition --cluster $cluster --network-configuration "awsvpcConfiguration={subnets=[$subnet],assignPublicIp=ENABLED}" --launch-type FARGATE

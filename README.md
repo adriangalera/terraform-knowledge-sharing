@@ -2,14 +2,17 @@
 # Terraform Knowledge Sharing
 
 1) What is terraform? Benefits of using it?
-    - tfstate
-    - plan
-    - apply 
-    - destroy
-    - multi-cloud
+    - Tool with DSL
+    - Multi-cloud (AWS, Google Cloud, Azure, ...)
     - Infrastructure as code
         - Deploy from local
         - Deploy from pipelines
+    - Keep the state of the infra locally (tfstate)
+    - Incremental changes
+    - `terraform plan`
+    - `terraform apply`
+    - `terraform destroy`
+
 2) Simple use (01-basics)
     - Create a dynamoDB table and a S3 bucket
 2) For each (02-for-each)

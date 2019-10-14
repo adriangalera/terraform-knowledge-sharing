@@ -1,3 +1,5 @@
+Show the code reuse of terraform through for-each
+
 # Environment
 
 1) Three DynamoDB tables:

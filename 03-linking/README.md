@@ -1,3 +1,5 @@
+Show how resources are linked between them in terraform
+
 # Environment
 
 1) One S3 bucket
